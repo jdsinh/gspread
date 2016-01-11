@@ -44,7 +44,7 @@ setup(
     author_email='fuss.here@gmail.com',
     url='https://github.com/burnash/gspread',
     keywords=['spreadsheets', 'google-spreadsheets'],
-    install_requires=['requests>=2.2.1'],
+    install_requires=['requests>=2.9.1'],
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
