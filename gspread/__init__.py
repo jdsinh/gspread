@@ -8,7 +8,7 @@ Google Spreadsheets client library.
 
 """
 
-__version__ = '0.3.0'
+__version__ = '0.4.1'
 __author__ = 'Anton Burnashev'
 
 
@@ -18,7 +18,7 @@ except ImportError:
     from urllib.parse import urlencode
 
 
-from .client import Client, login, authorize
+from .client import Client, authorize
 from .models import Spreadsheet, Worksheet, Cell
 from .exceptions import (GSpreadException, AuthenticationError,
                          SpreadsheetNotFound, NoValidUrlKeyFound,
